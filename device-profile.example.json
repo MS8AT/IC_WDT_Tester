@@ -1,0 +1,13 @@
+{
+  "tester": {
+    "chip_model": "ESP32-D0WDQ6",
+    "chip_revision": "v1.0",
+    "base_mac": "SET_FACTORY_BASE_MAC",
+    "mac_type": "BASE_MAC",
+    "source": "Template only. Confirm your board model, revision and factory eFuse BASE_MAC before writing."
+  },
+  "main": {
+    "base_mac": "SET_MAIN_FACTORY_BASE_MAC",
+    "source": "Optional bench identity; COM number is not board identity."
+  }
+}

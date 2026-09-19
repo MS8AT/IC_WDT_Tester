@@ -1,0 +1,17 @@
+.pio/
+__pycache__/
+exports/
+.sdk/
+.work/
+Del/
+/src/secrets.h
+/WORK_JOURNAL.md
+/.vscode/
+/*.lnk
+*.bin
+*.elf
+*.map
+/usb-restart.jsonl
+/usb-restart-events.jsonl
+/usb-restart.log
+/usb-restart-*.json

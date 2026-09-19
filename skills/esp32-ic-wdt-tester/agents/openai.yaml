@@ -1,0 +1,6 @@
+interface:
+  display_name: "IC WDT Tester"
+  short_description: "Отдельная плата реле и диагностики EN"
+  default_prompt: "Используй $esp32-ic-wdt-tester для работы с отдельной платой IC WDT Tester, начни с её текущего профиля и offline проверки."
+policy:
+  allow_implicit_invocation: true

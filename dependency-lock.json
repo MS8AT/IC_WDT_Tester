@@ -1,0 +1,66 @@
+{
+  "schema_version": 2,
+  "source_migration": "COMPLETE",
+  "baseline_marker": "RELAY13-EN33-LATCH-02",
+  "max_bypass_ms": 5000,
+  "latched_off": true,
+  "persistence": "none",
+  "dependencies": [
+    {
+      "path": "tools/read_usb_restart_events.py",
+      "sha256": "b5d2354996dca37dc9b47a9f237c0b92bf7aef17d42dc9d40a1c8d9b4380108b"
+    },
+    {
+      "path": "tools/restart_usb_interactive.ps1",
+      "sha256": "19f04eccdbe94f0aa404a0d61eab7b4777c2e439eef9c6632ac6f601e9566e46"
+    },
+    {
+      "path": "src/RelayResetBench.h",
+      "sha256": "d53c63d1ea3517938ccb46909af909025a1e60b1c9399d0262796d0a9428300d"
+    },
+    {
+      "path": "src/relay_main.cpp",
+      "sha256": "d134cc848336f6ff78805baf658365fa7eea076fa5fec4bdebdda5562f19fcb1"
+    },
+    {
+      "path": "src/Auto_Serial.h",
+      "sha256": "aded3c3bb5dd9e7fe065217734bb40900f5db2630e2ca1c698d6f72d7a681c8d"
+    },
+    {
+      "path": "tools/relay_bench_session.py",
+      "sha256": "9d9f0e87d68d95976836f35a2ab78bd4aa106ca5e5b1fdfb4ce9138e2822b57f"
+    },
+    {
+      "path": "tools/vendor/com_session_logger.py",
+      "sha256": "76b9844870714eceac45d3064d4a7fc8cd6b8af061d231b54d801762e4e6d054"
+    },
+    {
+      "path": "src/main.cpp",
+      "sha256": "3df3513903cf6e34a423e6d1acf264f3af51f7506a2863a6b80d245d329d3234"
+    },
+    {
+      "path": "tools/tester_control.py",
+      "sha256": "64046533ccefa9304ee87b21609f12e4ee7e5ce26305042db740e159595c865b"
+    },
+    {
+      "path": "tools/flash_tester.py",
+      "sha256": "417c8063ef591b0de81928aca5ae2cadd06493facccb146238303ff8a4769b67"
+    },
+    {
+      "path": "tools/current_protocol.py",
+      "sha256": "a3740173c2db02ea6bbd5112102310599c79bd01ea1a776647c1d05236ebb4c1"
+    },
+    {
+      "path": "tools/restart_usb_port.ps1",
+      "sha256": "7ff844a34fce88b0b4a4c1846be4b8138bd02fec32124855f2d0ca530819a40c"
+    },
+    {
+      "path": "tools/read_telemetry.py",
+      "sha256": "cc587abdf6171dd70b12e70eab5f775fbd73fe9cb99b60524e678bc4a37bbbaf"
+    },
+    {
+      "path": "src/secrets.example.h",
+      "sha256": "9526eb5d51fe1d819d127da7e113bcc92a484fcfe4d39f32633775c229e6a5ed"
+    }
+  ]
+}

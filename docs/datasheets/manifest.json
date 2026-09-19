@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "retrieved_at_utc": "2026-09-19T12:07:47.778067+00:00",
+  "documents": [
+    {
+      "file": "IN1232-integral-archive.pdf",
+      "owner": "INTEGRAL",
+      "title": "IN1232 MicroMonitor Chip",
+      "revision": "not stated",
+      "pages": 6,
+      "source_url": "https://www.datasheetarchive.com/datasheet/IN1232/Integral?term=IN1232&version=1",
+      "download_url": "https://www.datasheetarchive.com/pdf/download/distributors/Datasheets-14/DSA-266638.pdf?h=32ca45b0aa9c8ddd7cd7c1448bb61c6c%3Aa4d5fcc477f7495941d1a9e967e35fdae59e51665589f6155fe5793112e41fd5e832d040272952370844f04a%3Aa00b98dd1ae6077281041c1a435089ab",
+      "source_kind": "manufacturer_document_on_archive_or_distributor_mirror",
+      "bytes": 122545,
+      "sha256": "d372b1fdd0dc4f82faee6a7661d75688fc280c2f5016fffdbd6ffae6902114d4",
+      "content_modified": false
+    },
+    {
+      "file": "DS1232LP-040594.pdf",
+      "owner": "Dallas Semiconductor",
+      "title": "DS1232LP/LPS Low Power MicroMonitor Chip",
+      "revision": "040594",
+      "pages": 7,
+      "source_url": "https://docs.rs-online.com/9c25/0900766b80025c7d.pdf",
+      "download_url": "https://docs.rs-online.com/9c25/0900766b80025c7d.pdf",
+      "source_kind": "manufacturer_document_on_archive_or_distributor_mirror",
+      "bytes": 49257,
+      "sha256": "88a1c649782abcfc5a10468dd3c31f12b0f736e2ceaa5bb6f8de5b021166e47f",
+      "content_modified": false
+    },
+    {
+      "file": "INTEGRAL-catalog-2005.pdf",
+      "owner": "INTEGRAL",
+      "title": "Catalog 2005",
+      "revision": "2005",
+      "pages": 245,
+      "source_url": "https://static.chipdip.ru/lib/481/DOC004481794.pdf",
+      "download_url": "https://static.chipdip.ru/lib/481/DOC004481794.pdf",
+      "source_kind": "manufacturer_document_on_archive_or_distributor_mirror",
+      "bytes": 2782102,
+      "sha256": "d6d71af62202820b714befc9dca48e223df0da71a02c1e598f2f30c88e6a288a",
+      "content_modified": false
+    }
+  ],
+  "online_reference": {
+    "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/ds1232lp.pdf",
+    "revision": "111899",
+    "read_online": true,
+    "local_download": "TIMEOUT",
+    "local_substitute": "DS1232LP-040594.pdf"
+  },
+  "hardware_verification": "NOT_RUN"
+}
