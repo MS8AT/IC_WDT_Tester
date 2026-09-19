@@ -64,3 +64,4 @@ EN: Command names, paths, JSON fields and actual device replies remain verbatim.
 | [tests/AGENTS.md](../tests/AGENTS.md) | RU · 中文 · EN |
 | [tools/AGENTS.md](../tools/AGENTS.md) | RU · 中文 · EN |
 | [docs/LANGUAGES.md](LANGUAGES.md) | RU · 中文 · EN |
+| [docs/BRANDING.md](BRANDING.md) | RU · 中文 · EN |

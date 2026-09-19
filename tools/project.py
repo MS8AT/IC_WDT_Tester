@@ -14,6 +14,7 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 PROJECT_FILES = (
+    'docs/BRANDING.md', 'docs/images/branding/future-jtec-dragon.png',
     'docs/LANGUAGES.md',
     'docs/GALLERY.md',
     'docs/commercial/INDEX.md',

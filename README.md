@@ -1,12 +1,14 @@
 # IC WDT Tester — ESP32
 
-## AI MS8AT J-Tec
+![MS8AT GLOBAL — Future — J-Tec — Jet Technologies](docs/images/branding/future-jtec-dragon.png)
 
-RU: **Ускорение технологий Future.** AI MS8AT J-Tec — название инициативы проекта; юридическое наименование компании в документах сохраняется. [Официальный сайт MS8AT GLOBAL](https://ms8at.by/) · [Wiki на трёх языках](https://github.com/MS8AT/IC_WDT_Tester/wiki).
+## MS8AT GLOBAL · Future · J-Tec
 
-中文：**加速 Future 技术发展。** AI MS8AT J-Tec 是项目倡议的名称；文件中的公司法定名称保持不变。[MS8AT GLOBAL 官方网站](https://ms8at.by/) · [三语 Wiki](https://github.com/MS8AT/IC_WDT_Tester/wiki)。
+RU: **J-Tec — Jet Technologies: ускорение технологий.** J-Tec — технологическое обозначение проекта Future; юридическое наименование компании в документах сохраняется. [Официальный сайт MS8AT GLOBAL](https://ms8at.by/) · [Wiki на трёх языках](https://github.com/MS8AT/IC_WDT_Tester/wiki).
 
-EN: **Accelerating Future technologies.** AI MS8AT J-Tec is the project initiative name; the company's legal name remains unchanged in its documents. [MS8AT GLOBAL official website](https://ms8at.by/) · [Trilingual Wiki](https://github.com/MS8AT/IC_WDT_Tester/wiki).
+中文：**J-Tec 意为 Jet Technologies：加速技术发展。** J-Tec 是 Future 项目的技术名称；文件中的公司法定名称保持不变。[MS8AT GLOBAL 官方网站](https://ms8at.by/) · [三语 Wiki](https://github.com/MS8AT/IC_WDT_Tester/wiki)。
+
+EN: **J-Tec stands for Jet Technologies: accelerating technologies.** J-Tec is the technology name for the Future project; the company's legal name remains unchanged in its documents. [MS8AT GLOBAL official website](https://ms8at.by/) · [Trilingual Wiki](https://github.com/MS8AT/IC_WDT_Tester/wiki).
 
 ## Future — открыт всему миру / 向全世界开放 / Open to the world
 
@@ -135,3 +137,5 @@ RU: Оригинальные материалы MS8AT GLOBAL опубликов�
 中文：MS8AT GLOBAL 原创材料按 [MIT](LICENSE) 发布。保留版权声明及许可即可自由用于个人或商业用途。第三方材料保留其自身条款。[许可范围](docs/LICENSING.md)。
 
 EN: Original MS8AT GLOBAL materials are published under [MIT](LICENSE). Personal and commercial use is free, subject to retaining the copyright notice and license. Third-party materials retain their own terms. [License scope](docs/LICENSING.md).
+
+[О названии и символе / 名称与标志 / Name and identity](docs/BRANDING.md)

@@ -1,12 +1,14 @@
 # Future — Разработка и автоматизация электроники / 电子硬件开发与自动化 / Electronics development and automation
 
-## AI MS8AT J-Tec
+![MS8AT GLOBAL — Future — J-Tec — Jet Technologies](images/branding/future-jtec-dragon.png)
 
-RU: **Ускорение технологий Future.** AI MS8AT J-Tec — название инициативы проекта; юридическое наименование компании в документах сохраняется. [Официальный сайт MS8AT GLOBAL](https://ms8at.by/) · [Wiki на трёх языках](https://github.com/MS8AT/IC_WDT_Tester/wiki).
+## MS8AT GLOBAL · Future · J-Tec
 
-中文：**加速 Future 技术发展。** AI MS8AT J-Tec 是项目倡议的名称；文件中的公司法定名称保持不变。[MS8AT GLOBAL 官方网站](https://ms8at.by/) · [三语 Wiki](https://github.com/MS8AT/IC_WDT_Tester/wiki)。
+RU: **J-Tec — Jet Technologies: ускорение технологий.** J-Tec — технологическое обозначение проекта Future; юридическое наименование компании в документах сохраняется. [Официальный сайт MS8AT GLOBAL](https://ms8at.by/) · [Wiki на трёх языках](https://github.com/MS8AT/IC_WDT_Tester/wiki).
 
-EN: **Accelerating Future technologies.** AI MS8AT J-Tec is the project initiative name; the company's legal name remains unchanged in its documents. [MS8AT GLOBAL official website](https://ms8at.by/) · [Trilingual Wiki](https://github.com/MS8AT/IC_WDT_Tester/wiki).
+中文：**J-Tec 意为 Jet Technologies：加速技术发展。** J-Tec 是 Future 项目的技术名称；文件中的公司法定名称保持不变。[MS8AT GLOBAL 官方网站](https://ms8at.by/) · [三语 Wiki](https://github.com/MS8AT/IC_WDT_Tester/wiki)。
+
+EN: **J-Tec stands for Jet Technologies: accelerating technologies.** J-Tec is the technology name for the Future project; the company's legal name remains unchanged in its documents. [MS8AT GLOBAL official website](https://ms8at.by/) · [Trilingual Wiki](https://github.com/MS8AT/IC_WDT_Tester/wiki).
 
 RU: Проект Future официально стартовал 19 сентября 2026 года. IC_WDT_Tester — первый практический модуль платформы автоматизации разработки, тестирования и диагностики электроники.
 
@@ -85,3 +87,5 @@ RU: [Свободная лицензия](LICENSING.md) · [Галерея](GALL
 中文：[自由许可](LICENSING.md) · [图库](GALLERY.md) · [服务及折扣](SERVICES.md) · [收款资料及账单](PAYMENT.md) · [合同文件](commercial/INDEX.md)。
 
 EN: [Free license](LICENSING.md) · [Gallery](GALLERY.md) · [Services and discount](SERVICES.md) · [Payment details and invoice](PAYMENT.md) · [Contract documents](commercial/INDEX.md).
+
+[О названии и символе / 名称与标志 / Name and identity](BRANDING.md)
