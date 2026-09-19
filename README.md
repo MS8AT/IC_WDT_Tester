@@ -1,5 +1,13 @@
 # IC WDT Tester — ESP32
 
+## AI MS8AT J-Tec
+
+RU: **Ускорение технологий Future.** AI MS8AT J-Tec — название инициативы проекта; юридическое наименование компании в документах сохраняется. [Официальный сайт MS8AT GLOBAL](https://ms8at.by/) · [Wiki на трёх языках](https://github.com/MS8AT/IC_WDT_Tester/wiki).
+
+中文：**加速 Future 技术发展。** AI MS8AT J-Tec 是项目倡议的名称；文件中的公司法定名称保持不变。[MS8AT GLOBAL 官方网站](https://ms8at.by/) · [三语 Wiki](https://github.com/MS8AT/IC_WDT_Tester/wiki)。
+
+EN: **Accelerating Future technologies.** AI MS8AT J-Tec is the project initiative name; the company's legal name remains unchanged in its documents. [MS8AT GLOBAL official website](https://ms8at.by/) · [Trilingual Wiki](https://github.com/MS8AT/IC_WDT_Tester/wiki).
+
 ## Future — открыт всему миру / 向全世界开放 / Open to the world
 
 RU: **Future официально стартовал 19 сентября 2026 года.** IC_WDT_Tester — первый модуль платформы разработки и автоматизации электроники. **MS8AT GLOBAL — компания, зарегистрированная в Беларуси и основанная двумя учредителями из Беларуси и Китая**, развивающая международное сотрудничество в области электроники и автоматизации.
@@ -103,9 +111,9 @@ EN: Build commands require a prepared SDK. Passing source checks and builds does
 
 ## Документы / 文档 / Documentation
 
-RU: Ссылки ниже ведут на подробные инструкции; они пока преимущественно на русском. Трёхъязычные материалы — эта страница, руководство микросхем и реестр PDF.  
-中文：以下链接指向详细指南，目前主要为俄语。三语资料包括本页、芯片指南和 PDF 目录。  
-EN: The detailed guides below are currently mainly in Russian. This page, the IC guide and the PDF register are trilingual.
+RU: Подробные инструкции доступны на русском, китайском и английском. В длинных руководствах выберите язык в начале страницы. [Покрытие переводами](docs/LANGUAGES.md) · [GitHub Wiki](https://github.com/MS8AT/IC_WDT_Tester/wiki).
+中文：详细指南提供俄语、中文和英语版本。长篇指南可在页首选择语言。[翻译覆盖范围](docs/LANGUAGES.md) · [GitHub Wiki](https://github.com/MS8AT/IC_WDT_Tester/wiki)。
+EN: Detailed guides are available in Russian, Chinese and English. Select a language at the top of longer guides. [Translation coverage](docs/LANGUAGES.md) · [GitHub Wiki](https://github.com/MS8AT/IC_WDT_Tester/wiki).
 
 - [Принцип работы / 工作原理 / Firmware operation](docs/HOW_IT_WORKS.md)
 - [Проверки и ограничения / 验证与限制 / Validation and limits](docs/VALIDATION_20260919.md)

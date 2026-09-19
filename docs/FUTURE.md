@@ -1,5 +1,13 @@
 # Future — Разработка и автоматизация электроники / 电子硬件开发与自动化 / Electronics development and automation
 
+## AI MS8AT J-Tec
+
+RU: **Ускорение технологий Future.** AI MS8AT J-Tec — название инициативы проекта; юридическое наименование компании в документах сохраняется. [Официальный сайт MS8AT GLOBAL](https://ms8at.by/) · [Wiki на трёх языках](https://github.com/MS8AT/IC_WDT_Tester/wiki).
+
+中文：**加速 Future 技术发展。** AI MS8AT J-Tec 是项目倡议的名称；文件中的公司法定名称保持不变。[MS8AT GLOBAL 官方网站](https://ms8at.by/) · [三语 Wiki](https://github.com/MS8AT/IC_WDT_Tester/wiki)。
+
+EN: **Accelerating Future technologies.** AI MS8AT J-Tec is the project initiative name; the company's legal name remains unchanged in its documents. [MS8AT GLOBAL official website](https://ms8at.by/) · [Trilingual Wiki](https://github.com/MS8AT/IC_WDT_Tester/wiki).
+
 RU: Проект Future официально стартовал 19 сентября 2026 года. IC_WDT_Tester — первый практический модуль платформы автоматизации разработки, тестирования и диагностики электроники.
 
 中文：Future 项目于 2026 年 9 月 19 日正式启动。IC_WDT_Tester 是电子硬件开发、测试与诊断自动化平台的首个实际模块。

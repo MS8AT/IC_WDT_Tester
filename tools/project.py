@@ -14,6 +14,7 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 PROJECT_FILES = (
+    'docs/LANGUAGES.md',
     'docs/GALLERY.md',
     'docs/commercial/INDEX.md',
     'docs/commercial/CONTRACT_ZH.md',
@@ -146,22 +147,8 @@ def export_snapshot(output, root=ROOT, public=False):
         for name in ('docs/ACCEPTANCE.md', 'docs/HANDOFF.md', 'docs/PROJECT_LAYOUT.md',
                      'docs/RECHECK_20260918.md', 'USB_RESTART_PLAN.md', 'NVS_RECOVERY_PLAN.md'):
             guide = 'GETTING_STARTED.md' if name.startswith('docs/') else 'docs/GETTING_STARTED.md'
-            entries[name] = ('# Local workspace record\n\n'
-                'Private run history is excluded from this public snapshot.\n'
-                'Source tests/build do not confirm any installed firmware or physical signals.\n'
-                'Use the [setup guide](' + guide + ') and record your own board identity,\n'
-                'wiring, image hash, operations and verified results before live work.\n').encode()
-        entries['docs/LEGACY_LATCH02.md'] = (
-            '# Legacy LATCH-02 compatibility\n\n'
-            'RelayResetBench.h and relay_main.cpp are retained for a separate legacy firmware.\n'
-            'The default PlatformIO environment builds main.cpp only.\n\n'
-            'Legacy commands: identity, status, off, on, bypass:<1-5000ms>, release.\n'
-            'Aliases: function wdt status/on/off/timed <ms>. OFF is latched until ON or reboot.\n'
-            'GPIO13 controls the relay; GPIO33 observes EN. JSON type wdt_pin is described\n'
-            'in [TELEMETRY](TELEMETRY.md). Identity/lease workflows are not main.cpp commands.\n'
-            'Use tester_control.py only with positively identified legacy firmware;\n'
-            'use CurrentProtocol for main.cpp. Do not infer wiring or board identity from COM.\n'
-            'Private historical owner IDs and hardware logs are excluded from this snapshot.\n').encode()
+            entries[name] = ('# Локальные записи / 本地记录 / Local records\n\n## Русский\n\nЧастная история запусков исключена из этого публичного снимка. Проверки исходников и сборка не подтверждают установленную прошивку или физические сигналы. До аппаратной работы используйте [руководство запуска]({guide}) и запишите идентичность своей платы, проводку, хеш образа, действия и проверенные результаты.\n\n## 中文\n\n本公开快照不包含私人运行历史。源码检查和构建不证明已安装的固件或实际物理信号。进行硬件操作前，请使用[入门指南]({guide})，记录自己的板卡身份、接线、固件映像哈希、操作和验证结果。\n\n## English\n\nPrivate run history is excluded from this public snapshot. Source tests/build do not confirm installed firmware or physical signals. Before live work, use the [setup guide]({guide}) and record your own board identity, wiring, image hash, operations and verified results.\n').format(guide=guide).encode('utf-8')
+        entries['docs/LEGACY_LATCH02.md'] = '## Русский\n\n# Совместимость LATCH-02\n\nRelayResetBench.h и relay_main.cpp сохранены для отдельной старой прошивки. Среда PlatformIO по умолчанию собирает только main.cpp.\n\nСтарые команды: identity, status, off, on, bypass:<1-5000ms>, release. Псевдонимы: function wdt status/on/off/timed <ms>. OFF фиксируется до ON или reboot. GPIO13 управляет реле; GPIO33 наблюдает EN. JSON type wdt_pin описан в [TELEMETRY](TELEMETRY.md). Identity/lease не являются командами main.cpp.\n\nПрименяйте tester_control.py только к подтверждённой старой прошивке; для main.cpp используйте CurrentProtocol. Не определяйте проводку или идентичность платы по COM. Частные исторические идентификаторы владельцев и аппаратные журналы исключены из снимка.\n\n## 中文\n\n# LATCH-02 兼容性\n\nRelayResetBench.h 和 relay_main.cpp 为独立的旧固件保留。默认 PlatformIO 环境仅编译 main.cpp。\n\n旧命令：identity、status、off、on、bypass:<1-5000ms>、release。别名：function wdt status/on/off/timed <ms>。OFF 保持至 ON 或重启。GPIO13 控制继电器；GPIO33 监测 EN。JSON type wdt_pin 见 [TELEMETRY](TELEMETRY.md)。Identity/lease 不是 main.cpp 的命令。\n\n仅在确认安装了旧固件后使用 tester_control.py；main.cpp 使用 CurrentProtocol。不要根据 COM 判断接线或板卡身份。此快照不包含私人历史操作者标识和硬件日志。\n\n## English\n\n# Legacy LATCH-02 compatibility\n\nRelayResetBench.h and relay_main.cpp are retained for a separate legacy firmware.\nThe default PlatformIO environment builds main.cpp only.\n\nLegacy commands: identity, status, off, on, bypass:<1-5000ms>, release.\nAliases: function wdt status/on/off/timed <ms>. OFF is latched until ON or reboot.\nGPIO13 controls the relay; GPIO33 observes EN. JSON type wdt_pin is described\nin [TELEMETRY](TELEMETRY.md). Identity/lease workflows are not main.cpp commands.\nUse tester_control.py only with positively identified legacy firmware;\nuse CurrentProtocol for main.cpp. Do not infer wiring or board identity from COM.\nPrivate historical owner IDs and hardware logs are excluded from this snapshot.\n'.encode('utf-8')
         # Public docs must not link to excluded Del/runtime or parent-workspace files.
         for name, data in list(entries.items()):
             if not name.endswith('.md'): continue
