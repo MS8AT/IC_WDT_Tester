@@ -14,6 +14,21 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 PROJECT_FILES = (
+    'docs/GALLERY.md',
+    'docs/commercial/INDEX.md',
+    'docs/commercial/CONTRACT_ZH.md',
+    'docs/commercial/CONTRACT_EN.md',
+    'docs/commercial/LOYALTY_88_ZH.md',
+    'docs/commercial/LOYALTY_88_EN.md',
+    'docs/commercial/ORDER_ZH.md',
+    'docs/commercial/ORDER_EN.md',
+    'docs/images/future/bench-overview.jpg',
+    'docs/images/future/controller-detail.png',
+    'docs/images/future/ethernet-board.jpg',
+    'docs/images/future/freenove-breakout.jpg',
+    'docs/images/future/main-controller.jpg',
+    'docs/images/future/masterkit-marking.jpg',
+    'docs/images/future/watchdog-detail.jpg',
     'LICENSE', 'docs/FUTURE.md', 'docs/LICENSING.md', 'docs/SERVICES.md', 'docs/PAYMENT.md',
     'docs/commercial/CONTRACT_RU.md', 'docs/commercial/LOYALTY_88_RU.md',
     'docs/commercial/ORDER_RU.md', 'docs/commercial/LEGAL_NOTES.md',

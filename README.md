@@ -1,13 +1,32 @@
 # IC WDT Tester — ESP32
 
-## Future · Лицензия · Сотрудничество / Future · 许可 · 合作 / Future · License · Services
+## Future — открыт всему миру / 向全世界开放 / Open to the world
 
-RU: **Future официально стартовал 19 сентября 2026 года.** IC_WDT_Tester — первый модуль платформы автоматизации разработки и диагностики электроники. [Концепция Future](docs/FUTURE.md) · [MIT и область лицензии](docs/LICENSING.md) · [Услуги и скидка 88%](docs/SERVICES.md) · [Запрос счёта и реквизиты](docs/PAYMENT.md) · [Проект договора](docs/commercial/CONTRACT_RU.md).
+RU: **Future официально стартовал 19 сентября 2026 года.** IC_WDT_Tester — первый модуль платформы разработки и автоматизации электроники. **MS8AT GLOBAL — компания, зарегистрированная в Беларуси и основанная двумя учредителями из Беларуси и Китая**, развивающая международное сотрудничество в области электроники и автоматизации.
 
-中文：**Future 项目于 2026 年 9 月 19 日正式启动。** IC_WDT_Tester 是电子硬件开发与诊断自动化平台的首个模块。[发展规划](docs/FUTURE.md) · [MIT 许可范围](docs/LICENSING.md) · [服务](docs/SERVICES.md) · [账单与付款信息](docs/PAYMENT.md)。
+中文：**Future 项目于2026年9月19日正式启动。** IC_WDT_Tester 是电子硬件开发与自动化平台的首个模块。**MS8AT GLOBAL 是一家在白俄罗斯注册、由来自白俄罗斯和中国的两位创始人共同创立的公司**，致力于电子技术与自动化领域的国际合作。
 
-EN: **Future officially launched on 19 September 2026.** IC_WDT_Tester is the first module of a hardware development and diagnostics automation platform. [Future roadmap](docs/FUTURE.md) · [MIT scope](docs/LICENSING.md) · [Services](docs/SERVICES.md) · [Request an invoice / payment details](docs/PAYMENT.md).
+EN: **Future officially launched on 19 September 2026.** IC_WDT_Tester is the first module of an electronics development and automation platform. **MS8AT GLOBAL is a company registered in Belarus and established by two founders from Belarus and China**, developing international cooperation in electronics and automation.
 
+RU: **Свободно и бесплатно по MIT:** изучайте, применяйте, изменяйте и распространяйте опубликованные оригинальные материалы, в том числе коммерчески. Сохраняйте уведомление об авторских правах и текст лицензии. Для их использования не нужны NDA или покупка услуг. [Полные условия](docs/LICENSING.md).
+
+中文：**按 MIT 自由且免费使用：** 您可学习、使用、修改及分发已发布的原创材料，包括商业用途。请保留版权声明和许可文本。无需签署保密协议或购买服务即可使用。[完整条件](docs/LICENSING.md)。
+
+EN: **Free to use under MIT:** study, use, modify and redistribute the published original materials, including commercially. Retain the copyright notice and license text. No NDA or service purchase is required to use them. [Full terms](docs/LICENSING.md).
+
+RU: [О проекте](docs/FUTURE.md) · [Фотографии и модели плат](docs/GALLERY.md) · [Услуги и скидка 88%](docs/SERVICES.md) · [Счета BYN / RUB / юани](docs/PAYMENT.md) · [Договор и приложения](docs/commercial/INDEX.md).
+
+中文：[项目介绍](docs/FUTURE.md) · [照片与板卡型号](docs/GALLERY.md) · [服务及88%折扣](docs/SERVICES.md) · [BYN / RUB / 人民币账户](docs/PAYMENT.md) · [合同及附件](docs/commercial/INDEX.md)。
+
+EN: [About Future](docs/FUTURE.md) · [Photos and board identification](docs/GALLERY.md) · [Services and 88% discount](docs/SERVICES.md) · [BYN / RUB / yuan accounts](docs/PAYMENT.md) · [Contract and appendices](docs/commercial/INDEX.md).
+
+[![Стенд Future / Future 测试台 / Future bench](docs/images/future/bench-overview.jpg)](docs/GALLERY.md)
+
+RU: Экспериментальный стенд. Фотография показывает оборудование и монтаж; результаты испытаний подтверждаются отдельно.
+
+中文：实验测试台。照片展示设备和安装情况；测试结果须另行验证。
+
+EN: Experimental bench. The photograph shows equipment and assembly; test results require separate verification.
 
 RU: Отдельная плата ESP32 управляет реле внешнего watchdog, выполняет внешний сброс и наблюдает линию EN. Вывод Serial: текст для человека слева, JSON для ИИ справа.  
 中文：独立 ESP32 测试板控制外部看门狗继电器、执行外部复位并监测 EN。串口输出左侧为可读文本，右侧为供 AI 解析的 JSON。  
@@ -103,6 +122,8 @@ EN: USB history is in root-level `usb-restart.log`. [restart_usb_port.ps1](tools
 
 ## Лицензия / 许可证 / License
 
-RU: Владелец пока не выбрал лицензию проекта; LICENSE отсутствует. Зависимости и оригинальные PDF имеют собственных правообладателей и условия использования.  
-中文：项目所有者尚未选择许可证，当前没有 LICENSE 文件。依赖项及原始 PDF 各有其权利人和使用条款。  
-EN: The owner has not selected a project license; there is no LICENSE file. Dependencies and original PDFs retain their respective owners and terms.
+RU: Оригинальные материалы MS8AT GLOBAL опубликованы по [MIT](LICENSE). Свободное личное и коммерческое использование — с сохранением уведомления об авторских правах и лицензии. Сторонние материалы сохраняют собственные условия. [Область лицензии](docs/LICENSING.md).
+
+中文：MS8AT GLOBAL 原创材料按 [MIT](LICENSE) 发布。保留版权声明及许可即可自由用于个人或商业用途。第三方材料保留其自身条款。[许可范围](docs/LICENSING.md)。
+
+EN: Original MS8AT GLOBAL materials are published under [MIT](LICENSE). Personal and commercial use is free, subject to retaining the copyright notice and license. Third-party materials retain their own terms. [License scope](docs/LICENSING.md).

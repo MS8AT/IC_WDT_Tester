@@ -5,6 +5,11 @@
 | Документ | Когда читать |
 | --- | --- |
 | [README](../README.md) | Вход для человека, пины, запуск |
+| [Future](FUTURE.md) | О проекте / 项目介绍 / About the project |
+| [Галерея / 图库 / Gallery](GALLERY.md) | Фото и модели / 照片与型号 / Photos and models |
+| [Лицензия / 许可 / License](LICENSING.md) | MIT и свободное применение / MIT 与自由使用 / MIT and free use |
+| [Коммерческие документы / 商务文件 / Commercial documents](commercial/INDEX.md) | Русский → 中文 → English |
+| [Оплата / 付款 / Payment](PAYMENT.md) | Реквизиты и запрос счёта / 收款资料与账单 / Accounts and invoice requests |
 | [GETTING_STARTED](GETTING_STARTED.md) | Новый компьютер, Wi-Fi, SDK, сборка и первая проверка |
 | [WIRING](WIRING.md) | Подключение GPIO, общая земля и схема |
 | [IC_WDT_HARDWARE](IC_WDT_HARDWARE.md) | RU/中文/EN: IN1232N, DS1232LP, схема, TOL, TD, проверка |
