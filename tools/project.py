@@ -14,6 +14,9 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 PROJECT_FILES = (
+    'LICENSE', 'docs/FUTURE.md', 'docs/LICENSING.md', 'docs/SERVICES.md', 'docs/PAYMENT.md',
+    'docs/commercial/CONTRACT_RU.md', 'docs/commercial/LOYALTY_88_RU.md',
+    'docs/commercial/ORDER_RU.md', 'docs/commercial/LEGAL_NOTES.md',
     'README.md', 'AGENTS.md', '.gitignore', '.gitattributes', 'platformio.ini',
     'dependency-lock.json', 'flash-settings.json', 'src/main.cpp', 'tools/project.py',
     'tools/check_build.py', 'tests/test_project.py', 'tests/test_main.py',

@@ -1,5 +1,14 @@
 # IC WDT Tester — ESP32
 
+## Future · Лицензия · Сотрудничество / Future · 许可 · 合作 / Future · License · Services
+
+RU: **Future официально стартовал 19 сентября 2026 года.** IC_WDT_Tester — первый модуль платформы автоматизации разработки и диагностики электроники. [Концепция Future](docs/FUTURE.md) · [MIT и область лицензии](docs/LICENSING.md) · [Услуги и скидка 88%](docs/SERVICES.md) · [Запрос счёта и реквизиты](docs/PAYMENT.md) · [Проект договора](docs/commercial/CONTRACT_RU.md).
+
+中文：**Future 项目于 2026 年 9 月 19 日正式启动。** IC_WDT_Tester 是电子硬件开发与诊断自动化平台的首个模块。[发展规划](docs/FUTURE.md) · [MIT 许可范围](docs/LICENSING.md) · [服务](docs/SERVICES.md) · [账单与付款信息](docs/PAYMENT.md)。
+
+EN: **Future officially launched on 19 September 2026.** IC_WDT_Tester is the first module of a hardware development and diagnostics automation platform. [Future roadmap](docs/FUTURE.md) · [MIT scope](docs/LICENSING.md) · [Services](docs/SERVICES.md) · [Request an invoice / payment details](docs/PAYMENT.md).
+
+
 RU: Отдельная плата ESP32 управляет реле внешнего watchdog, выполняет внешний сброс и наблюдает линию EN. Вывод Serial: текст для человека слева, JSON для ИИ справа.  
 中文：独立 ESP32 测试板控制外部看门狗继电器、执行外部复位并监测 EN。串口输出左侧为可读文本，右侧为供 AI 解析的 JSON。  
 EN: A separate ESP32 board controls the external watchdog relay, applies external reset and observes EN. Serial output places human-readable text on the left and JSON for AI on the right.
